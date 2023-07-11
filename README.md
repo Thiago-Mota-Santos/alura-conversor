@@ -1,7 +1,6 @@
 ## Como usar o projeto.
 
 ```fish
- 
 git clone https://github.com/Thiago-Mota-Santos/alura-conversor.git
 cd src/br/com/conversor/modules 
 ```
