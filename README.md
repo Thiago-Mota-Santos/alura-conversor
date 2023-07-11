@@ -1,3 +1,5 @@
+### Alura challenge 02 - JAVA
+
 ## Como usar o projeto.
 
 ```fish
