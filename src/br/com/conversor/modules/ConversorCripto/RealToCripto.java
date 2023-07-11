@@ -1,15 +1,16 @@
 package br.com.conversor.modules.ConversorCripto;
 
+
 public class RealToCripto extends ConvertCryptocurrencies {
     public RealToCripto(){
         super();
     }
 
-    public double converterRealToBitcoin(double valor) {
-        return valor / getRealToBtc();
-    }
+   public double converterRealToBitcoin(double valor) {
+    return valor / getRealToBtc();
+}
 
-    public double converterRealToEthereum(double valor) {
+    public double converterRealToEtherium(double valor) {
         return valor / getRealToEth();
     }
 

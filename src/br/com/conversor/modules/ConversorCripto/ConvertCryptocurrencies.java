@@ -1,5 +1,6 @@
 package br.com.conversor.modules.ConversorCripto;
 
+
 public class ConvertCryptocurrencies { 
    
     private double realToBtc;
@@ -55,25 +56,5 @@ public class ConvertCryptocurrencies {
     public void setRealToLtc(double realToLtc) {
         this.realToLtc = realToLtc;
     }
-    
 
-    public double converterRealToBitcoin(double valor) {
-        return valor / getRealToBtc();
-    }
-
-    public double converterRealToEthereum(double valor) {
-        return valor / getRealToEth();
-    }
-
-    public double converterRealToLiteCoin(double valor){
-        return valor / getRealToLtc();
-    }
-
-    public double converterRealToRipple(double valor){
-        return valor / getRealToRipple();
-    }
-
-    public double converterRealToAda(double valor){
-        return valor / getRealToAda();
-    }  
 }
